@@ -13,7 +13,7 @@
     --percentage: var(--value);
     --primary: #369;
     --secondary: rgb(231, 156, 44);
-    --size: 300px;
+    --size: 150px;
     animation: progress 2s 0.5s forwards;
     width: var(--size);
     aspect-ratio: 1;
@@ -22,6 +22,8 @@
     overflow: hidden;
     display: grid;
     place-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   [role="progressbar"]::before {
@@ -47,10 +49,4 @@
   }
   
   /* demo */
-  body {
-    margin: 0;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    background: #f0f8ff;
-  }
+ 

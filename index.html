@@ -4,7 +4,13 @@
         <meta charset="UTF-8" />
         <titles></titles>
         <link rel="stylesheet"  href="_css/estilo.css" />
+        <link rel="stylesheet" href="_css/barraprogressiva.css"/>
     </head>
+    <script>
+        function mudaFoto(foto) {
+            document.getElementById("icone").src = foto;
+        }
+    </script>
     <body>
         <div id="inteface">
             <header id="cabecalho">
@@ -12,19 +18,18 @@
                 <!--<img id="foto-legenda" src="_imagens/nova-logoditechfundoback.png"  width="20%" /> -->
                 </figure>
                 <group>
-                    <h1>Google Glass</h1>
-                    <h2>A revolução do Google está chegando</h2>
+                    <h1>Glass Enterprise Edittion 2</h1>
+                    <h2>A revolução do Google chegou a 2º edição</h2>
                 </group>                 
-                <img id="icone" src="_imagens/glass-oculos-preto-peq.png" />                
-
+                <img id="icone" src="_imagens/glass_edition_2_3d_peq.png" /> 
                 <nav id="menu">
                     <h1>Menu Principal</h1>
                     <ul>
-                        <li><a href="index.html">Home</a></li>  
-                        <li><a href="specs.html">Especificações</a></li>  
-                        <li><a href="fotos.html">Fotos</a></li>
-                        <li><a href="multimidia.html">Multimídia</a></li>  
-                        <li><a href="fale-conosco.html">Fale conosco</a></li>                   
+                        <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/glass_edition_2_3d_peq.png')"><a href="index.html">Home</a></li>  
+                        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass_edition_2_3d_peq.png')"><a href="specs.html">Especificações</a></li>  
+                        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass_edition_2_3d_peq.png')"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass_edition_2_3d_peq.png')"><a href="multimidia.html">Multimídia</a></li>  
+                        <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass_edition_2_3d_peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>                   
                     </ul>
                 </nav>                                       
             </header> 
@@ -33,37 +38,43 @@
                     <header id="cabecalho-artigo">             
                         <hgroup>
                             <h3>Tecnologia > Inovações</h3> 
-                            <h1>Saiba tudo sobre o Google Glass</h1>
-                            <h2>Recriado por Demetrius Tobias</h2>
+                            <h1>Saiba tudo sobre o Google novo Glass</h1>
+                            <h2>Site recriado por Demetrius Tobias</h2>
                             <h3 class="direita">Atualizado em 10/dezembro/2021</h3>
                         </hgroup>
                     </header> 
                     <h2>O que é</h2> 
                     <p>
-                        O <span>Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;confe&shy;rên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o Google Glass encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.
+                        O <span>Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;confe&shy;rên&shy;cias. 
+                    </p>     
+                    <H2>Nova versão Glass Enterprise Edition 2 </H2>
+                    <p>   
+                        É um dispositivo vestível que ajuda as empresas a melhorar a qualidade de sua produção e ajuda seus funcionários a trabalhar de maneira mais inteligente, rápida e segura. Ele fornece aos trabalhadores práticos e profissionais uma assistência rápida e ativada por voz, projetada para ser usada o dia todo com seu perfil leve e confortável.
+
                     </p>
                     <figure class="foto-legenda">
-                        <img src="_imagens/glass-quadro-homem-mulher.jpg">
+                        <img src="_imagens/glass-quadro-mulher3.jpg">
                         <figcaption>
-                        <h2 id="sem-fundo">Google Glass</h2>
-                                <p>Uma forma diferente de ver o  mundo</p>
+                        <h2 id="sem-fundo">Descrubra o Glass Enterprise Edition</h2>
+                                <p>Uma nova forma de trabalho inteligente e rápido.</p>
                         </figcaption>
                     </figure>
                     <h2>Data de lançamento</h2>
                     <p>
-                        Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.
+                        Originalmente lançado em maio de 2019, o Google Glass Enterprise Edition 2 tem o Android como sistema base e é usado por funcionários de fábricas, arquitetos e outros profissionais — que se aproveitam principalmente dos conteúdos de Realidade Aumentada (AR).
                     </p>
 
                     <h2>Especificações Técnicas</h2>
                     
                     <table id="tablespec">
-                        <caption>Tabela Técnica do Google Glass <span>Mar/2013</span></caption>
-                        <tr><td class="ce">Tela</td><td class="cd">Resolução equivalente a tela de 25"</td></tr>
-                        <tr><td rowspan="2" class="ce">Camera</td><td class="cd">5MP para fotos720p para vídeos</td></tr>
+                        <caption>Tabela Técnica do Google Glass <span>Mai/2019</span></caption>
+                        <tr><td class="ce">Exibição</td><td class="cd">640 pixels x 360 pixels RGB</td></tr>
+                        <tr><td rowspan="2" class="ce">Camera</td><td class="cd">8MP fotos e 1080p30 para vídeos</td></tr>
                         <tr><td class="cd">720p para vídeos</td></tr>
-                        <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi</td></tr>
-                        <tr><td class="cd">Bluetooth</td></tr>
-                        <tr><td class="ce">Memoria Interna</td><td class="cd">12GB</td></tr>    
+                        <tr><td rowspan="2" class="ce">Conectividade</td><td class="cd">Wi-Fi IEEE 802.11a/g/b/n/ac, banda dupla</td></tr>
+                        <tr><td class="cd">Bluetooth 5.0</td></tr>
+                        <tr><td class="ce">Memoria Interna</td><td class="cd">3GB LPDDR4
+                            32GB eMMC Flash</td></tr>    
                     </table>
                     <h2>Como funciona</h2>
                     <p>
@@ -91,16 +102,17 @@
                 <p>
                     Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.
                 </p>
+                <!-- Barra Progressiva para usar no final -->
+                <h2>Barra de progresso</h2>
+                <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: 67">
+                </div>
             </aside>
             <footer id="rodape">
                 Copyright &copy; 2013 - by Gustavo Guanabara</br>
                 <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
                 <a href="http://twitter.com/cursosemvideo" target="_blank"> Twitter</a>
             </footer>
-        </div>
-        <!-- Barra Progressiva para usar no final
-        <div role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="--value: 67">
-        </div> -->
+        </div>        
         
     </body>
 </html>

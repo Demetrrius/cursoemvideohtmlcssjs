@@ -22,6 +22,7 @@ div#inteface {
 p{
     text-align: justify;
     text-indent: 50px;
+    margin-left: 10px;
 }
 a {
     color: #606060;
@@ -56,26 +57,25 @@ header#cabecalho {
     font-size: 15pt;
     color: rgb(156, 34, 34);
     padding: 0px;
-    margin-top: 4px;
+    margin-top: 4px;    
  }
 
 /*Formatação de imagens com legendas */
 figure.foto-legenda{
     position: relative;
     border: 8px solid rgb(255, 255, 255);
-    box-shadow: 1px 1px 4px black;    
+    box-shadow: 1px 1px 2px black;    
 }
 figure.foto-legenda img{
     width: 100%;
-    height: 100%;    
+    height: 100%; 
+     
 }
 section#corpo figure figcaption h2{
     color:white;      
     background-color: rgba(0, 0, 0, .1);
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
-
 
 figure.foto-legenda figcaption{
     position: absolute;
@@ -85,14 +85,13 @@ figure.foto-legenda figcaption{
     color: white;
     width: 100%;
     height: 100%;
-    padding: 9px;
+    padding: 10px 0px 0px 0px;
     box-sizing: border-box;
     transition: opacity 1s;    
 }
 figure.foto-legenda:hover figcaption{
-    opacity: 1;
+    opacity: 1;      
 }
-
 
 /* Formatação do Menu */
 nav#menu {
@@ -132,6 +131,8 @@ nav#menu a:hover{
     color:white;
     text-decoration: underline;
 }
+
+/* Formatação corpo principal */
 section#corpo{
     display: block;
     width: 500px;
@@ -146,7 +147,7 @@ article#noticia-principal h2 {
     color: #606060;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
-    margin: 10px  0px 10px 0px;
+    margin: 10px  0px 10px 10px;
 }
 
 header#cabecalho-artigo h1{
@@ -216,8 +217,8 @@ aside#lateral{
     display: block;
     width: 440px;
     float: left;
-    margin-top: 26px;
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 15px;    
     background-color:#cececece;
     box-shadow: 1px 1px 4px black;
     padding: 0.0em 0.5em 0.5em
