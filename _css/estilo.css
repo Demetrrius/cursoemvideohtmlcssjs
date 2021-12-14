@@ -39,6 +39,13 @@ header#cabecalho img#icone{
     top: 82px;    
 }
 
+header#cabecalho img#icone1{
+    position:absolute;
+    left: 830px;
+    top: 200px; 
+    width: 7%    
+}
+
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
@@ -61,6 +68,13 @@ header#cabecalho {
  }
 
 /*Formatação de imagens com legendas */
+
+/*.oculospequeno{
+        margin-left: 300px;
+       width:80px;
+       height: 80px;
+}*/
+
 figure.foto-legenda{
     position: relative;
     border: 8px solid rgb(255, 255, 255);
@@ -142,7 +156,7 @@ section#corpo{
     
 }
 article#noticia-principal h2 {
-    font-size: 25px;
+    font-size: 20pt;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #606060;
     background-color: #dddddd;
@@ -161,14 +175,14 @@ header#cabecalho-artigo h1{
     text-align: right;
 }
 header#cabecalho-artigo h2{
-    font-size: 20px;
+    font-size: 20pt;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color:rgb(156, 34, 34);
     background-color: #ffffff;
     margin: 0px;
 }
 header#cabecalho-artigo h3{
-    font-size: 15px;
+    font-size: 15pt;
     color:#606060;
 }
 
@@ -229,7 +243,7 @@ aside#lateral h1{
     font-size: 20pt;
 }
 aside#lateral h2{
-    font-size: 25px;
+    font-size: 20pt;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: white;
     background-color: #888;
