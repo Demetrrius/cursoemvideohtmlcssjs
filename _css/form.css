@@ -1,0 +1,22 @@
+@charset "UTF-8";   
+
+/*
+.nome {
+
+    size: 60px;
+    background-color: #e4e2e2;
+    height: auto;;
+    width: 300px;    
+    
+    }*/
+p label{
+    font-size:15pt;
+    color:rgb(13, 13, 14);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+legend#input label{
+    font-size:15pt;
+    color:rgb(13, 13, 14);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}

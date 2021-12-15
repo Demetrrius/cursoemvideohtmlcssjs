@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <titles></titles>
         <link rel="stylesheet"  href="_css/estilo.css" />
-        <link rel="stylesheet" href="_css/barraprogressiva.css"/>
+        <link rel="stylesheet" href="_css/media.css"/>
     </head>
     <script language="javascript" src="_javascript/funcoes.js"></script>
     <body>
@@ -42,17 +42,24 @@
 
                     </header>
             </section>
+            <div id="tv-radio">
+                <audio id="musica" controls="controls">
+                    <source id="cor" src="_media/sweet-dreams-puppetmaster-mp3.mp3" type="audio/mpeg" quality="high" />
+                    <source src="_media/sweet-dreams-puppetmaster-mp3.oggvorbis.ogg" type="audio/ogg" quality="high" />
+                    <p>Seu navegado não suporta o tipo de audio</p>
+                </audio>
 
-            Glass > Multimídia
-            Sons e Vídeos
-            por Gustavo Guanabara
-            Atualizado em 01/Maio/2013
+                <!--
+                <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                    <source src="_media/getting-started.mp4" type="video/mp4"/>
+                    Não foi possível carregar o vídeo.
+                </video>-->
+                <iframe id="filme"   src="https://www.youtube.com/embed/4EvNxWhskf8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                <p>Seu navegado não suporta o tipo de vídeo</p>  
 
-
-            Áudio e Vídeo
-
-            [AQUI ENTRA UM VÍDEO]
-            [AQUI ENTRA UM ÁUDIO]
+                
+            </div> 
+                  
             
         <footer id="rodape">
             Copyright &copy; 2013 - by Gustavo Guanabara</br>
