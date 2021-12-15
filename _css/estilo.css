@@ -34,22 +34,21 @@ a:hover{
 }
 
 header#cabecalho img#icone{
-    position:absolute;
-    left: 1290px;
-    top: 82px;    
+    position: relative;
+    left: 870px;
+    top: 0px;    
 }
 
-header#cabecalho img#icone1{
-    position:absolute;
-    left: 830px;
-    top: 200px; 
-    width: 7%    
+header img#icone1{
+    background: url("../_imagens/glass-oculos-preto-peq.png") no-repeat;   
 }
 
+/* Logo do GLASS cabeçalho*/
 header#cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background:url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+    
 }
  header#cabecalho h1{
      font-family: 'FonteLogo', sans-serif;
@@ -107,17 +106,17 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;      
 }
 
-/* Formatação do Menu */
+/* Formatação do Menu principal */
 nav#menu {
-    display:block;
-    
+    position: relative;
+    display:block;    
 }
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: -20px; 
-    left: 990px; 
+    position: relative;
+    bottom: 270px; 
+    left: 550px; 
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 15pt;
 

@@ -1,14 +1,16 @@
 @charset "UTF-8";   
 
-/*
-.nome {
-
-    size: 60px;
-    background-color: #e4e2e2;
-    height: auto;;
-    width: 300px;    
-    
-    }*/
+form{
+    width: 500px;
+    margin: auto;
+}
+input, textarea{
+    font-weight: normal; 
+    background-color: rgba(255, 255, 255, .3);
+}
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
 p label{
     font-size:15pt;
     color:rgb(13, 13, 14);
@@ -18,5 +20,40 @@ legend#input label{
     font-size:15pt;
     color:rgb(13, 13, 14);
     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+fieldset{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #2D7BE1;
+    border-color: #cececece;
+    margin: 20px;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 2px 0px rgb(87, 86, 86);
+    background-color: #ffffff;
+}
+fieldset label#MascFemi{
+    font-weight: normal;
+    color:rgb(13, 13, 14); 
+   
+}
+
+fieldset#sexo{
+    width:150px;
+    margin-left: 57px;  
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 2px 2px 0px rgb(255, 255, 255);  
+}
+fieldset#usuario{
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+fieldset#endereco{
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+
+}
+fieldset#mensagem{
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+fieldset#pedido{
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
 
 }
